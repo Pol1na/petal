@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><title>Проверка почты — petal</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/fonts.css"><link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script><script src="mail.js" defer></script><script src="setup.js" defer></script>
+  <style>.setup{max-width:680px;margin:65px auto;padding:0 25px 60px}.setup h1{font-size:38px;line-height:1.5}.setup p{margin:20px 0;color:var(--muted);font-size:13px}.setup ol{padding-left:20px;line-height:2;font-size:13px}.setup .button{margin:10px 12px 10px 0}.setup code{overflow-wrap:anywhere}.setup-status{border:1px solid var(--line);padding:20px;border-radius:4px;white-space:pre-wrap}.setup-email{font-size:14px}.setup a{font-size:12px}.warning{background:#eeeee3;padding:17px;border-radius:4px}</style>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./"><span class="brand-flower">✳</span> petal.</a><span class="header-note">проверка перед отправкой</span></header>
+  <main class="setup"><p class="eyebrow">ОДИН РАЗ — И ВСЁ ГОТОВО</p><h1>Подключим <em>твою почту.</em></h1><p>Получатель: <strong class="setup-email" id="recipient"></strong></p><ol><li>Нажми первую кнопку ниже.</li><li>Найди письмо от FormSubmit, в том числе в «Спаме».</li><li>Нажми в письме <strong>Activate Form</strong>.</li><li>Нажми вторую кнопку и проверь контрольное письмо.</li></ol><button class="button primary" id="activate">Подтвердить приём ответов →</button><button class="button primary" id="test">Отправить контрольное письмо →</button><p id="status" class="setup-status" role="status" aria-live="polite">Здесь появится результат проверки.</p><p class="warning">Проверку лучше делать после публикации на GitHub Pages. Ответы девушки отправляются только в конце анкеты, после нажатия «Отправить мой намёк». Проверь приём письма до того, как отправлять ей ссылку.</p><p>Эта страница не даёт доступа к чужим ответам. Настройки меняются в файле <code>config.js</code>.</p><a href="./">← Открыть сам опросник</a></main>
+</body>
+</html>
